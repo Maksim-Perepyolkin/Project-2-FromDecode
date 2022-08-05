@@ -1,0 +1,21 @@
+body{
+    background-color: #fcf3ea;
+}
+
+
+.container{
+    padding: 0 5%;
+}
+
+a{
+    text-decoration: none;
+}
+
+.section{
+    background-color: #fff;
+    margin: 0 3%;
+    position: relative;
+    z-index: 0;
+    margin-bottom: 50px;
+
+}

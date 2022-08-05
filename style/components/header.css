@@ -1,0 +1,136 @@
+.header{
+    padding: 30px 0;
+}
+.header-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-info-links a{
+    color: #000;
+    margin-left: 15px;
+    transition: .2s;
+}
+
+.header-info-links a:hover{
+    color: #bac34e;
+}
+
+.header-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    background-color: #f4f4f4;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.search input{
+    border: none;
+    background-color: transparent;
+    outline: none;
+    width: 400px;
+}
+
+.search img{
+    width: 16px;
+    margin-right: 10px;
+}
+
+.search button{
+    border: none;
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 16px;
+    transition: .3s;
+}
+
+.search button:hover{
+    color: #bac34e;
+    cursor: pointer;
+}
+
+.header-icons{
+    display: flex;
+    align-items: center;
+}
+.header-icons img{
+    width: 25px;
+}
+
+.header-icons div{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: #e8f8f7;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transition: .3s;
+}
+
+.header-icons div:nth-child(2){
+    background-color: #f6f3e3;
+}
+
+.header-icons div:last-child{
+    background-color: #f3e4dc;
+}
+
+.header-icons div:hover{
+    background-color: #bac34e;
+}
+
+.header-icons div:hover img{
+    filter: invert(1);
+}
+
+.header-icons i{
+    position: absolute;
+    background-color: #e0bf96;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: -2px;
+    right: -5px;
+}
+
+.header-adaptive{
+    display: none;
+}
+
+.header-adaptive img{
+    width: 25px;
+    cursor: pointer;
+}
+
+@media (max-width:991px){
+    .header, .search-block, .header-icons div:first-child, .header-icons div:nth-child(2){
+        display: none;
+    }
+
+    .header-adaptive{
+        display: block;
+    }
+}
+
+@media (max-width:490px){
+    .logo{
+        width: 80px;
+    }
+}
+
+

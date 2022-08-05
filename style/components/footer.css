@@ -1,0 +1,98 @@
+.footer{
+    margin-top: 100px;
+    padding-bottom: 50px;
+}
+
+.footer-item{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #aaa;
+    padding-bottom: 50px;
+}
+
+.footer-item a{
+    display: block;
+}
+
+.footer-item h2{
+    font-size: 14px;
+    font-weight: 600;
+    color: #000;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.footer-item h3{
+    font-size: 14px;
+    font-weight: 400;
+    color: #000;
+    line-height: 24px;
+}
+
+.footer-item h4{
+    font-size: 14px;
+    font-weight: 400;
+    color: #aaa;
+    line-height: 24px;
+}
+
+.footer-child :nth-child(4){
+    margin-top: 10px;
+}
+
+.footer-item a{
+    direction: ltr;
+    font-family: "Mazzard Soft H";
+    font-size: 16px;
+    color: #555;
+    line-height: 20px;
+    margin-bottom: 15px;
+    transition: .4s;
+}
+
+.footer-item a:hover{
+    color: #bac34e;
+}
+
+.footer-chold-5 :last-child{
+    margin-top: 50px;
+}
+
+.footer-item-down{
+    color: #555;
+    text-align: center;
+    font-size: 16px;
+    font-family: "Mazzard Soft H";
+    margin-top: 80px;
+}
+
+i{
+    color: #bac34e;
+}
+
+
+@media(max-width: 1000px){
+    .footer{
+        margin-top: 50px;
+    }
+    .footer-item{
+        flex-wrap: wrap;
+    }
+
+    .footer-child{
+        margin-bottom: 50px;
+    }
+}
+
+@media(max-width: 556px){
+    .footer-item{
+        display: block;
+        text-align: center;
+    }
+
+    .footer-chold-5 :last-child{
+        margin-top: 20px;
+
+    }
+}

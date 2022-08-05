@@ -1,0 +1,57 @@
+.icons{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.icons div{
+    opacity: .5;
+    transition: .4s;
+}
+
+.icons div:hover{
+    opacity: 1;
+}
+
+@media(max-width: 1200px){
+    .icons :nth-child(6){
+        display: none;
+    }
+}
+
+@media(max-width: 900px){
+    .icons :nth-child(5){
+        display: none;
+    }
+
+    .icons{
+        margin-top: 50px;
+    }
+}
+
+@media(max-width: 800px){
+    .icons :nth-child(4){
+        display: none;
+    }
+}
+
+@media(max-width: 650px){
+    .icons :nth-child(3){
+        display: none;
+    }
+
+    .icons img{
+        width: 150px;
+    }
+}
+
+@media(max-width: 320px){
+
+    .icons img{
+        width: 100px;
+    }
+
+    .icons{
+        margin-top: 10px;
+    }
+}
